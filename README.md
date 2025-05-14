@@ -1,16 +1,34 @@
-# interview_app
+# mohammed-interview-test
 
-A new Flutter project.
+This project is a Flutter mobile application built as part of an interview coding test.  
+It uses the JSONPlaceholder API to display a list of products (posts), search through them, and view product details.
 
-## Getting Started
+The goal was to demonstrate clean architecture, responsive UI, API integration, and basic state management.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠 Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter (Dart)**
+- **Provider** for state management
+- **Public REST API**: [JSONPlaceholder](https://jsonplaceholder.typicode.com) (`/posts`, `/users`)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## ✅ Features
+
+- Fetch and display a list of posts
+- Real-time search functionality
+- View detailed information for each post
+- Error handling with user-friendly messages
+- Clean and responsive UI
+
+---
+
+## 📦 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mistamdee/mohammed-interview-test.git
+   cd mohammed-interview-test
+2. Run flutter pub get and build the app.
